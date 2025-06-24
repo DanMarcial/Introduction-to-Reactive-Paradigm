@@ -16,7 +16,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @WireMockTest(httpPort = 8083)
-class DemoApplicationTests {
+class IntroductionToReactiveParadigmApplicationTests {
 
 	@LocalServerPort
 	private int port;
